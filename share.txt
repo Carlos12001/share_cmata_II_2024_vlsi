@@ -2,3 +2,7 @@
 Message <1>:
 testing write 43
 
+=================
+Message <2>:
+testing append
+
