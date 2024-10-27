@@ -6,3 +6,7 @@ holi
 Message <1>:
 segunda prueba
 
+=================
+Message <2>:
+otra  prueba
+
