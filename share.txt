@@ -1,4 +1,4 @@
 =================
-Message <1>:
-testing write
+Message <2>:
+testing write 2
 
