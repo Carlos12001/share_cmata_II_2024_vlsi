@@ -46,3 +46,8 @@ bench/            ciropt/           filters/          mos/              sources/
 Message <3>:
 copy
 
+=================
+Message <4>:
+/mnt/vol_NFS_rh003/Est_VLSI_II_2024/cmata/hspice_example
+
+
