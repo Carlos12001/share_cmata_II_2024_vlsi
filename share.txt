@@ -5,4 +5,44 @@ testing write 43
 =================
 Message <2>:
 testing append
+[cmata_II_2024_vlsi@redhat003 hspice_example]$ hspice --version
+Using: /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/linux64/hspice --version
+**error** unknown option : "--version"
+[cmata_II_2024_vlsi@redhat003 hspice_example]$ hspice -v
+Using: /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/linux64/hspice -v
+  HSPICE Version U-2023.03-SP2 linux64 (Aug 24 2023 8388748)
+
+  Copyright (c) 1986 - 2024 by Synopsys, Inc. All Rights Reserved.
+[cmata_II_2024_vlsi@redhat003 hspice_example]$ ls  /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/linux64/hspice
+/mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/linux64/hspice
+[cmata_II_2024_vlsi@redhat003 hspice_example]$ ls  /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/linux64/
+amicheck  converter  FSDB    hspicerf-slr.so  hspice-slr   lib              libhsp_optsim.so  libnffw.so  librapi.so                  metaencrypt  pvalib  QT
+AVA       exec       hspice  hspicerf.so      HSP_Pack2Go  libCMIfusion.so  libnffr.so        libnsys.so  libsim_results_reporter.so  pva          python  sputil
+[cmata_II_2024_vlsi@redhat003 hspice_example]$ ls  /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/
+aa_integ  ava  bin  cdpl  cmi  demo  doc  GNU  HSPICE.html  hspice.ini  include  interface  linux64  mosraapi  parts  README  suse64
+[cmata_II_2024_vlsi@redhat003 hspice_example]$ ls  /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/demo
+hspice
+[cmata_II_2024_vlsi@redhat003 hspice_example]$  hspice -i your_selected_spice_demo_file -o
+Using: /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/linux64/hspice  -i 'your_selected_spice_demo_file' -o
+
+  **error** No valid input file are specified. Please enter a valid simulation file by adding "-i <input file>" at command line.
+[cmata_II_2024_vlsi@redhat003 hspice_example]$  hspice -i /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/demo -o
+Using: /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/linux64/hspice  -i '/mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/demo' -o
+
+  **error** No valid input file are specified. Please enter a valid simulation file by adding "-i <input file>" at command line.
+[cmata_II_2024_vlsi@redhat003 hspice_example]$  hspice -i /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/demo/hspice/ -o
+apps/             bisect/           devopt/           ibis/             mpo/              sparam/           twline/           
+back_annotation/  bjt/              encryption/       lstb/             rf_examples/      spiceADE_integ/   variability/      
+behave/           cchar/            fft/              mag/              si/               StatEye_clk_skew/ vcd/              
+bench/            ciropt/           filters/          mos/              sources/          tline/            veriloga/         
+[cmata_II_2024_vlsi@redhat003 hspice_example]$  hspice -i /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/demo/hspice/ -o
+apps/             bisect/           devopt/           ibis/             mpo/              sparam/           twline/           
+back_annotation/  bjt/              encryption/       lstb/             rf_examples/      spiceADE_integ/   variability/      
+behave/           cchar/            fft/              mag/              si/               StatEye_clk_skew/ vcd/              
+bench/            ciropt/           filters/          mos/              sources/          tline/            veriloga/         
+[cmata_II_2024_vlsi@redhat003 hspice_example]$  hspice -i /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/demo/hspice/ -o
+
+=================
+Message <3>:
+copy
 
