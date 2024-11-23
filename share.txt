@@ -584,4 +584,25 @@ New copy
 =================
 Message <10>:
 New copy
+omparator.ic0      Comparator.ic2      Comparator.sp       Comparator.tr0      Comparator.tr2      p007_hspice_models/ 
+Comparator.ic1      Comparator.lis      Comparator.st0      Comparator.tr1      Comparator.tr.grp   
+[cmata_II_2024_vlsi@redhat003 FinFET_example]$ wv Comparator.tr0
+[cmata_II_2024_vlsi@redhat003 FinFET_example]$ cd ,,
+bash: cd: ,,: No such file or directory
+[cmata_II_2024_vlsi@redhat003 FinFET_example]$ cd ..
+[cmata_II_2024_vlsi@redhat003 hspice_inverter]$ ls
+45nm_example  error  FinFET_example  inverter_simulation.lis  inverter_simulation.sp  inverter_simulation.st0
+[cmata_II_2024_vlsi@redhat003 hspice_inverter]$ rm inverter_simulation.*
+[cmata_II_2024_vlsi@redhat003 hspice_inverter]$ ls
+45nm_example  error  FinFET_example
+[cmata_II_2024_vlsi@redhat003 hspice_inverter]$ rm error 
+[cmata_II_2024_vlsi@redhat003 hspice_inverter]$ ls
+45nm_example  FinFET_example
+[cmata_II_2024_vlsi@redhat003 hspice_inverter]$ touch inverter_delay.sp
+[cmata_II_2024_vlsi@redhat003 hspice_inverter]$ vim inverter_delay.sp 
+[cmata_II_2024_vlsi@redhat003 hspice_inverter]$ vim inverter_delay.sp^C
+
+=================
+Message <11>:
+New copy
 
