@@ -548,4 +548,40 @@ Using: /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/linux64/hspice
 =================
 Message <9>:
 New copy
+<pre>[cmata_II_2024_vlsi@redhat003 share_cmata_II_2024_vlsi]$ tree .
+<font color="#0087FF">.</font>
+├── <font color="#0087FF">examples_hspice</font>
+│   ├── <font color="#0087FF">45nm_example</font>
+│   │   ├── comparator_Hspice.sp
+│   │   ├── comparator_monte_Hspice.sp
+│   │   └── <font color="#0087FF">p045</font>
+│   │       ├── nmos_vtl_ff.inc
+│   │       ├── nmos_vtl_monte.inc
+│   │       ├── nmos_vtl_ss.inc
+│   │       ├── nmos_vtl_tt.inc
+│   │       ├── p045_cmos_models_ff.inc
+│   │       ├── p045_cmos_models_ss.inc
+│   │       ├── p045_cmos_models_tt.inc
+│   │       ├── pmos_vtl_ff.inc
+│   │       ├── pmos_vtl_monte.inc
+│   │       ├── pmos_vtl_ss.inc
+│   │       └── pmos_vtl_tt.inc
+│   ├── <font color="#0087FF">FinFET_example</font>
+│   │   ├── Comparator.sp
+│   │   └── <font color="#0087FF">p007_hspice_models</font>
+│   │       ├── 7nm_FF_160803.pm
+│   │       ├── 7nm_SS_160803.pm
+│   │       ├── 7nm_TT_160803.pm
+│   │       └── ASAP7_license.txt
+│   └── how_to_simulate_in_Hspice.pdf
+├── README.md
+├── <font color="#00D700">send.sh</font>
+└── share.txt
+
+5 directories, 22 files
+[cmata_II_2024_vlsi@redhat003 share_cmata_II_2024_vlsi]$ 
+</pre>
+=================
+Message <10>:
+New copy
 
