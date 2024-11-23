@@ -157,3 +157,39 @@ Using: /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/linux64/hspice
 Message <5>:
 copy
 
+[cmata_II_2024_vlsi@redhat003 cmata]$ cat inverter_delay.sp 
+* SPICE Deck for measuring tpdf and tpdr of an inverter
+.lib /path/to/library/xh018.lib tm
+.lib /path/to/library/param.lib 3s
+.lib /path/to/library/config.lib default
+
+* Temperature setting
+.temp 25
+
+* Inverter configuration
+XM1 out in gnd gnd nmos l=0.18u w=0.22u
+XM2 out in vdd out vdd pmos l=0.18u w=0.44u
+
+* Power supply
+Vdd vdd gnd 1.8
+
+* Input source
+Vin in gnd PULSE (0 1.8 0 100p 100p 2n 4n)
+
+* Simulation options
+.tran 10p 10n
+.option post probe
+.probe tran v(in) v(out)
+
+* End of file
+.end
+
+[cmata_II_2024_vlsi@redhat003 cmata]$ hspice inverter_delay.sp > inverter_delay.lis
+
+>info:         ***** hspice job aborted
+[cmata_II_2024_vlsi@redhat003 cmata]$ 
+
+=================
+Message <6>:
+New copy
+
