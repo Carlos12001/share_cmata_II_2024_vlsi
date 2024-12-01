@@ -1,0 +1,65 @@
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.39MB -*-
+  -*- CPU Time :     0.17s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.39MB -*-
+  -*- CPU Time :     0.17s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.35MB -*-
+  -*- CPU Time :     0.18s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.35MB -*-
+  -*- CPU Time :     0.18s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.35MB -*-
+  -*- CPU Time :     0.18s -*-
+sx_set_data_directory {/home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results}
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.74MB -*-
+  -*- CPU Time :     0.18s -*-
+[20:42:31.770] I| Setup simulation complete: 
+    results directory: /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results 
+    post database directory: /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results
+   *** loading waveform file /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results/resultsMap.xml ... ***
+   *** loading waveform file /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results/inter.fsdb ... ***
+   *** Loading waveform file finished ***
+   *** Evaluating Equations... ***
+Nominal: Start to call cckDBHandler to create handler
+Nominal: Start to integrate database
+Start to post process[20:42:31.790] I| Start generating post results database...
+[20:42:31.790] I| Clear post result data in database.
+[20:42:32.830] I| Create Post WDF File ...S_default/FineSimProVCS/nominal/results/post1.wave
+[20:42:32.840] I| Generate post results database complete.
+sx_exit
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.40MB -*-
+  -*- CPU Time :     0.17s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 418.40MB -*-
+  -*- CPU Time :     0.17s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.36MB -*-
+  -*- CPU Time :     0.17s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.36MB -*-
+  -*- CPU Time :     0.18s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.36MB -*-
+  -*- CPU Time :     0.18s -*-
+sx_set_data_directory {/home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results}
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 421.75MB -*-
+  -*- CPU Time :     0.18s -*-
+sx_exit

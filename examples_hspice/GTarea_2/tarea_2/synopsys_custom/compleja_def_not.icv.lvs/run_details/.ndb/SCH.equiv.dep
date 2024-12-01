@@ -1,0 +1,5 @@
+PE { }
+NE { }
+compleja_def_not { P_DNW NE PE P_DN }
+P_DNW { }
+P_DN { }

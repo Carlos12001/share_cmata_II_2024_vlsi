@@ -1,0 +1,12 @@
+compleja_def_not
+	Cell Level Device Counts
+		NMOS[ne] = 9
+		DIODE[p_dn] = 1
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 13
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = compleja_def_not  *******
+		NMOS[ne] = 9
+		DIODE[p_dn] = 1
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 13

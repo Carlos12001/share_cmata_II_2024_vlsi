@@ -1,0 +1,3 @@
+ ** SX started using preference settings in '/tmp/tmp_sae_spxrc_w5vPJS'
+sx_set_data_directory {/home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results}
+sx_exit

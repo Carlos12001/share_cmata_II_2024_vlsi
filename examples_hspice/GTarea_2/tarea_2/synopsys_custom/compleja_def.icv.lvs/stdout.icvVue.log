@@ -1,0 +1,167 @@
+  + INFO: Connected to Custom Compiler at 40843.
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L startFilter LAY
+L setTopLayLCV  ""
+L setCurLayLCV  ""
+
+< LAYOUT: start_filter >
+L setWorkingDir "[pwd]"
+  + INFO: Timer already set.
+  + INFO: Connected to Custom Compiler at 40843.
+
+< SCHEMATIC: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+S startFilter SCH
+S setCurModule ""
+
+< SCHEMATIC: start_filter >
+S setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs
+L setTopLayLCV tarea_2/compleja_def/layout
+L openLCV tarea_2/compleja_def/layout
+
+< SCHEMATIC: load_hercules >
+S setCurModule compleja_def
+S setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs
+S openModule
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< SCHEMATIC: new_block >
+S clearAllProbes
+
+< LAYOUT: edit_in_place >
+V ZOOM_EXTENTS_RESET
+L clearAllHighlights
+S setCurModule compleja_def
+L setCurLayLCV tarea_2/compleja_def/layout
+S openModule
+L openLCVInstance
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< SCHEMATIC: before_hilite >
+
+< SCHEMATIC: net_hilite >
+S setProbeProperty yellow brick
+S addProbe A net
+
+< SCHEMATIC: after_hilite >
+S zoomToProbes
+
+< SCHEMATIC: zoom_extents >
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L setHiliteId
+
+< LAYOUT: primary_hilite >
+L setHighlightProperty yellow brick
+
+< LAYOUT: poly_set >
+L highlightFromFile /home/Cordero_Matamoros_I_2024_vlsi/.synopsys/icv/vue_tmp_000000/highlight_20240429150245_000000.oas df1624ab37fa385965b9fe55e036d50f
+
+< LAYOUT: after_hilite >
+L drawHighlights
+
+< LAYOUT: zoom_extents >
+L setViewPort 3.159 1.529 9.815 5.385
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: edit_in_place >
+V ZOOM_EXTENTS_RESET
+L clearAllHighlights
+
+< SCHEMATIC: new_block >
+S clearAllProbes
+L setCurLayLCV tarea_2/compleja_def/layout
+L openLCVInstance
+S setCurModule compleja_def
+S openModule
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< SCHEMATIC: remove_hilites >
+S clearAllProbes
+
+< LAYOUT: quit_vue >
+
+< SCHEMATIC: quit_vue >
+  + INFO: Close the connection with Custom Compiler.
+  + INFO: Close the connection with Custom Compiler.

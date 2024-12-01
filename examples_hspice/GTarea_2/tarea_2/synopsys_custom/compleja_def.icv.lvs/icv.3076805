@@ -1,0 +1,59 @@
+
+Warning: icv_master daemon cluster exiting with signal 15
+
+sh: line 5: 3077227 Aborted                 (core dumped) /usr/bin/gdb --nx --pid 3076805 2> /dev/null  <<EOF
+set pagination off
+bt  
+detach
+quit
+EOF
+
+
+
+The tool has just encountered a fatal error:
+
+If you encountered this fatal error when using the most recent
+Synopsys release, submit this stack trace and a test case that
+reproduces the problem to the Synopsys Support Center by using
+Enter A Call at http://solvnet.synopsys.com/EnterACall.
+
+* For information about the latest software releases, go to the Synopsys
+  SolvNet Release Library at http://solvnet.synopsys.com/ReleaseLibrary.
+
+* For information about required Operating System patches, go to
+  http://www.synopsys.com/support
+
+
+Fatal: Internal system error, cannot recover.
+
+Release = ''  Architecture = 'Linux'  Program = ''
+Exec = '/mnt/vol_synopsys2023/synopsys/icvalidator/U-2022.12-SP4/bin/linux64/icv_service_launcher'
+
+
+Stack trace for crashing thread (23148306353152)
+---------------------------------------
+SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b9
+SNPSee_f3cd83d3629d1ec10d9ea4bed3c8c99f
+killpg
+SNPSee_7ec2690070a470670a0c4d33911d2fc451fdaa363ef0d8281276a8b29819b501af1dc73b0235da327f8191a48272edfe77e3f2359a789b1c5dc98dcd6401f9b0
+SNPSee_c0de97f081089215bc827dd5035ff51d80e3210c54bfea99
+SNPSee_f493990cac89fd095049ccafe2c683758a8007743c5674e9
+SNPSee_2661e0c9bf158d9c3232a1e7ad79dc8d
+SNPSee_412806bafaada983085faba352514b33db119fb5891dee934103b11c6c16b35714563f31fa0336bfc8e7bb0ee53f3a593ee33844c1f28f0e1b9042f2c12d5e059519982eb7dd87b21091270f5690273d69b474b434bca9e82f12b65086e759cc
+SNPSee_412806bafaada983c022ed2b50df851bea861d48a407510d0dd74b5508c48a26
+SNPSee_412806bafaada983a396f6eb3248987259cdf07283ea634c4e969c93fa34f8858e31e1a55c0ce549c7537f3888249348f78fe0f2faaefafb54fa68e1068852e44264a2c0dfc44c718dcc1e260f3152fed794fe1b8a0dcb1dfdd8af7ad2affcd1a3853381e0c6711cf81c8c0d48da76f9795a061989da815fb51483e7440e1220bd86b36b4074eb975d91e4b00851c703c7a6d1b2afc6ed86d53c087e6901ec22d9d49a3822ef7e9b5d894f0f7627677bd4e4cc40505846dd05faef58d41aefeaa476d9ab952b68f0e36359e8e83de625a7471970e64fdb7d
+SNPSee_412806bafaada983a396f6eb324898721f5a7a25a7d0ad3fed2ae8b3c5b9272b8235ca730d5b7df7da8e242a63a581c3cfc39c8baeb8fb77c1d36ee83bbc7ba35ea09dbdbb7414bb48de8caa3804e464
+SNPSee_5a7b06e7e8fa367ae4e0314e26ca76ba0af7c3429db5b6b5b3562c709aad4cd9e991ebb0c3cbda9e
+SNPSee_d640f813150f000168da4b0c59036d53
+SNPSee_db1106a9b8769c474965dcf53d7e4ab4
+SNPSee_bf1c8284ee4c480d326ed14f7722cb4c76ba5075626f9c2bb95c636645ef03f1d5e032159f0c38e5a314b9e4a26a17358682a0fe63f9b19a
+SNPSee_e36ece22f5dacbc2c77665956e881fe407891b4f3694dd1454dba4c5363ea5411799ae6ffadbbfc78476435c5dd139c4
+SNPSee_5a24f30b88271223
+__libc_start_main
+SNPSee_d06eed713327be76
+
+
+Detailed stack trace :
+---------------------------------
+
+A snapshot of runtime data has been captured in /tmp//crte_003076805.txt

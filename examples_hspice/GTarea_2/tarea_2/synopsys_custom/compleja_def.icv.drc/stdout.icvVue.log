@@ -1,0 +1,129 @@
+  + INFO: Connected to Custom Compiler at 9189.
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L startFilter LAY
+L setTopLayLCV  ""
+L setCurLayLCV  ""
+
+< LAYOUT: start_filter >
+L setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.drc
+L setTopLayLCV tarea_2/compleja_def/layout
+L openLCV tarea_2/compleja_def/layout
+
+< LAYOUT: redraw >
+
+< LAYOUT: new_block >
+V ZOOM_EXTENTS_RESET
+L setCurLayLCV tarea_2/compleja_def/layout
+L openLCV tarea_2/compleja_def/layout
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L setHiliteId
+
+< LAYOUT: primary_hilite >
+L setHighlightProperty blue brick
+
+< LAYOUT: poly_set >
+L highlightFromFile /home/Cordero_Matamoros_I_2024_vlsi/.synopsys/icv/vue_tmp_000000/highlight_20240428203014_000000.oas 90de753f18d91916304b5bff2aa3178a
+
+< LAYOUT: zoom_extents >
+L setViewPort 33.445 2.6125 33.545 2.6875
+
+< LAYOUT: drc_error >
+L addErrorDescription Distance: 0.06
+
+< LAYOUT: after_hilite >
+L drawHighlights
+
+< LAYOUT: redraw >
+
+< LAYOUT: new_block >
+V ZOOM_EXTENTS_RESET
+L setCurLayLCV tarea_2/compleja_def/layout
+L openLCV tarea_2/compleja_def/layout
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L setHiliteId
+
+< LAYOUT: primary_hilite >
+L setHighlightProperty blue brick
+
+< LAYOUT: poly_set >
+L highlightFromFile /home/Cordero_Matamoros_I_2024_vlsi/.synopsys/icv/vue_tmp_000000/highlight_20240428203016_000001.oas 90de753f18d91916304b5bff2aa3178a
+
+< LAYOUT: zoom_extents >
+L setViewPort 33.445 2.6125 33.545 2.6875
+
+< LAYOUT: drc_error >
+L addErrorDescription Distance: 0.06
+
+< LAYOUT: after_hilite >
+L drawHighlights
+
+< LAYOUT: redraw >
+
+< LAYOUT: new_block >
+V ZOOM_EXTENTS_RESET
+L setCurLayLCV tarea_2/compleja_def/layout
+L openLCV tarea_2/compleja_def/layout
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+L setHiliteId
+
+< LAYOUT: primary_hilite >
+L setHighlightProperty blue brick
+
+< LAYOUT: poly_set >
+L highlightFromFile /home/Cordero_Matamoros_I_2024_vlsi/.synopsys/icv/vue_tmp_000000/highlight_20240428203017_000002.oas 360669838ae4462e14da804405146211
+
+< LAYOUT: zoom_extents >
+L setViewPort 33.5075 2.6125 33.7825 2.6875
+
+< LAYOUT: drc_error >
+L addErrorDescription Distance: 0.06
+
+< LAYOUT: after_hilite >
+L drawHighlights
+
+< LAYOUT: redraw >
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< LAYOUT: load_hercules >
+L setWorkingDir /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.drc
+L setTopLayLCV tarea_2/compleja_def/layout
+L openLCV tarea_2/compleja_def/layout
+
+< LAYOUT: remove_hilites >
+L clearAllHighlights
+
+< LAYOUT: quit_vue >
+  + INFO: Close the connection with Custom Compiler.

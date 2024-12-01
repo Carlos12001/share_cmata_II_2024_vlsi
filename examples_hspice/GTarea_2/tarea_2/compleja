@@ -1,0 +1,66 @@
+*  Generated for: FineSimProVCS
+*  Design library name: tarea_2
+*  Design cell name: compleja
+*  Design view name: schematic
+
+.option finesim_output=fsdb finesim_merge_fsdb=1
+
+
+.temp 25
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/Hspice/lp5mos/xt018.lib' tm
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/Hspice/lp5mos/param.lib' 3s
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/Hspice/lp5mos/config.lib' default
+
+*PrimeWave Design Environment Version U-2023.03-SP2
+*Mon Apr 15 15:46:46 2024
+
+.global gnd
+********************************************************************************
+* Library          : tarea_2
+* Cell             : compleja
+* View             : schematic
+* View Search List : hspice hspiceD schematic verilog functional behavioral vhdl_config vhdl spice veriloga verilogams
+* View Stop List   : hspice hspiceD functional behavioral symbol
+********************************************************************************
+xm16 net63 a net81 net81 pe w=2u l=180.0n as=9.6e-13 ad=9.6e-13 ps=4.96e-06 pd=4.96e-06
++ nrs=0.135 nrd=0.135 m='1*1' par1='1*1' xf_subext=0
+xm19 y d net67 net81 pe w=2u l=180.0n as=9.6e-13 ad=9.6e-13 ps=4.96e-06 pd=4.96e-06
++ nrs=0.135 nrd=0.135 m='1*1' par1='1*1' xf_subext=0
+xm18 y b net63 net81 pe w=2u l=180.0n as=9.6e-13 ad=9.6e-13 ps=4.96e-06 pd=4.96e-06
++ nrs=0.135 nrd=0.135 m='1*1' par1='1*1' xf_subext=0
+xm17 net67 c net81 net81 pe w=2u l=180.0n as=9.6e-13 ad=9.6e-13 ps=4.96e-06 pd=4.96e-06
++ nrs=0.135 nrd=0.135 m='1*1' par1='1*1' xf_subext=0
+xm20 net73 y net81 net81 pe w=2u l=180.0n as=9.6e-13 ad=9.6e-13 ps=4.96e-06 pd=4.96e-06
++ nrs=0.135 nrd=0.135 m='1*1' par1='1*1' xf_subext=0
+xm11 y a net47 gnd ne w=200u l=180n as=9.6e-11 ad=9.6e-11 ps=0.00040096 pd=0.00040096
++ nrs=0.00135 nrd=0.00135 m='1*1' par1='1*1' xf_subext=0
+xm12 y b net47 gnd ne w=2u l=180.0n as=9.6e-13 ad=9.6e-13 ps=4.96e-06 pd=4.96e-06
++ nrs=0.135 nrd=0.135 m='1*1' par1='1*1' xf_subext=0
+xm13 net47 c gnd gnd ne w=2u l=180.0n as=9.6e-13 ad=9.6e-13 ps=4.96e-06 pd=4.96e-06
++ nrs=0.135 nrd=0.135 m='1*1' par1='1*1' xf_subext=0
+xm14 net47 d gnd gnd ne w=2u l=180.0n as=9.6e-13 ad=9.6e-13 ps=4.96e-06 pd=4.96e-06
++ nrs=0.135 nrd=0.135 m='1*1' par1='1*1' xf_subext=0
+xm15 net73 y gnd gnd ne w=2u l=180.0n as=9.6e-13 ad=9.6e-13 ps=4.96e-06 pd=4.96e-06
++ nrs=0.135 nrd=0.135 m='1*1' par1='1*1' xf_subext=0
+v33 net81 gnd dc=1.8
+v30 c gnd dc=1.8 pulse ( 0 1.8 0 0.5n 0.5n 24n 48n )
+v31 d gnd dc=1.8 pulse ( 0 1.8 0 0.5n 0.5n 48n 96n )
+v29 b gnd dc=1.8 pulse ( 0 1.8 0 0.5n 0.5n 12n 24n )
+v25 a gnd dc=1.8 pulse ( 0 1.8 0 0.5n 0.5n 6n 12n )
+
+
+
+
+
+
+.tran 0.25n 200n
+
+.option PARHIER = LOCAL
+.option finesim_mode = spicead
+.option s_elem_cache_dir = "/home/Cordero_Matamoros_I_2024_vlsi/.synopsys_custom/sparam_dir"
+.option pva_output_dir = "/home/Cordero_Matamoros_I_2024_vlsi/.synopsys_custom/pva_dir"
+
+
+
+
+.end

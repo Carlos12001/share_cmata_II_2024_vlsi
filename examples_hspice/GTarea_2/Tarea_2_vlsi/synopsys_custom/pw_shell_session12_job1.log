@@ -1,0 +1,161 @@
+[19:57:36.74] /o 
+              /c                    PrimeWave Design Environment
+              /c 
+              /c            Version U-2023.03-SP2 for linux64 - Aug 24, 2023 00:53:01 
+              /c 
+              /c                     Copyright (c) 2000 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9117514 compiled on Wed Aug 23 10:56:58 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/bin/primewave_st -gui 0 -log pw_shell_session12_job1 -libDefFile /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Fernandez_Rodriguez_I_2024_vlsi/Tarea_2_vlsi/lib.defs
+              /c Execution time: Mon Apr 15 19:57:34 2024
+              /c Host: redhat003
+              /c 
+[19:57:36.76] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[19:57:36.76] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[19:57:36.76] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[19:57:39.50] /r giShowFrameTabs true
+[19:57:39.50] /r giWindowId 1
+[19:57:39.50] /r giWindowGeometry 1040x800
+[19:57:39.55] /i ::sa::_backgroundSaeShell::signalProcessReady 1713232652 86578
+[19:57:39.55] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 7
+[19:57:39.56] /i ::wf::updateViewerLicense 2
+[19:57:39.97] /i ::wf::updateViewerLicense 2
+[20:02:40.80] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:02:40.97] /i ::sa::_backgroundSaeShell::parentRunning
+[20:02:40.97] /o false
+[20:02:41.46] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[20:02:41.47] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[20:02:41.47] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[20:07:28.37] /i ::wf::viewerExited
+[20:07:30.29] /i ::sa::_backgroundSaeShell::runScript /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession5 uniqueSessionName {} testbenchName FineSim_VCS_default resultsDir /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results testSuiteDir /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal databaseName /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[20:07:30.31] /o 
+[20:07:30.31] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[20:07:30.31] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[20:07:30.31] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[20:07:31.48] /w Warning: The environment option digitalOutputDataFormat is reset to FineSimProVCS default.
+[20:07:31.48] /w Warning: The environment option mergedFile is reset to FineSimProVCS default.
+[20:07:31.48] /w Warning: The environment option compilationOptions is reset to FineSimProVCS default.
+[20:07:31.48] /w Warning: The environment option vhdlanOptions is reset to FineSimProVCS default.
+[20:07:31.48] /w Warning: The environment option elaborationOptions is reset to FineSimProVCS default.
+[20:07:31.48] /w Warning: The environment option analogSimulatorOptions is reset to FineSimProVCS default.
+[20:07:31.48] /w Warning: The environment option outputDataFormat is reset to FineSimProVCS default.
+[20:07:31.48] /w Warning: The environment option commandLineOptions is reset to FineSimProVCS default.
+[20:07:31.48] /w Warning: The environment option switchViewList is reset to FineSimProVCS default.
+[20:07:31.48] /w Warning: The environment option stopViewList is reset to FineSimProVCS default.
+[20:07:31.78] /m Information: Loading preferences from /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/pw_shell_session_prefs.xml
+[20:07:32.24] /o 
+[20:07:32.24] /o <> -------------------------------------------
+[20:07:32.24] /o <>
+[20:07:32.24] /o <> Loading XFAB PDK components
+[20:07:32.24] /o <>  basic                            O.K
+[20:07:32.26] /o <>  exports                          O.K
+[20:07:32.29] /o <>  custom                           O.K
+[20:07:32.30] /o <>  cdf                              O.K
+[20:07:32.31] /o <>  netlisting                       O.K
+[20:07:32.33] /o <>  useability                       WRN
+[20:07:32.35] /o <>  synopsys                         O.K
+[20:07:32.42] /o <>  pcellkit                         O.K
+[20:07:32.47] /o <>  trigger_callbacks                O.K
+[20:07:32.47] /o <> Loading XFAB PDK preferences
+[20:07:32.52] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference xtLVSSchNetlister because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference lxSplit because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference lxMFactorNames because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference lxTopBottomPinLPP because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference lxLeftRightPinLPP because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[20:07:32.52] /w Warning: Could not set the value of preference xtPVLayerMapFile because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference xtLPEStarRunsetFile because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference xtStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference xtCDLViewSearchList because it does not exist. (PREFERENCE-016)
+[20:07:32.52] /w Warning: Could not set the value of preference xtCDLViewStopList because it does not exist. (PREFERENCE-016)
+[20:07:32.53] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[20:07:32.53] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[20:07:32.53] /w Warning: Could not set the value of preference xtDRCICVControlVars because it does not exist. (PREFERENCE-016)
+[20:07:32.53] /w Warning: Could not set the value of preference xtLVSICVControlVars because it does not exist. (PREFERENCE-016)
+[20:07:32.53] /o <> Loading Calibre presets for XFAB PDK
+[20:07:32.53] /w Warning: Could not set the value of preference xtCalibreNetlistExportNetlisterEnabled because it does not exist. (PREFERENCE-016)
+[20:07:32.53] /w Warning: Could not set the value of preference xtCalibreNetlistExportNetlister because it does not exist. (PREFERENCE-016)
+[20:07:32.53] /w Warning: Could not set the value of preference xtCalibreNetlistExportViewList because it does not exist. (PREFERENCE-016)
+[20:07:32.53] /w Warning: Could not set the value of preference xtCalibreNetlistExportStopList because it does not exist. (PREFERENCE-016)
+[20:07:32.55] /o <> Loading .xfabrc user script
+[20:07:32.55] /o <>
+[20:07:32.55] /o <> -------------------------------------------
+[20:07:32.55] /o <>
+[20:07:32.55] /o <> Technology     xt018
+[20:07:32.55] /o <> Version        v12_1_1_1
+[20:07:32.55] /o <> LibCode        1243
+[20:07:32.55] /o <> Core           LP 1.8V
+[20:07:32.55] /o <> Metal          Thin4
+[20:07:32.55] /o <> TopMetal       METTP&METTPL
+[20:07:32.55] /o <>
+[20:07:32.55] /o <> -------------------------------------------
+[20:07:32.55] /o 
+[20:07:32.55] /m Information: WARNLOAD  /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/PDK/CustomCompiler/v12_1_1_1/scripts/useability/xt018_mimant_check.tcl
+[20:07:34.45] /m Information: Start incremental database creation...
+[20:07:34.70] /m Information: Create Iter role param id map
+[20:07:34.74] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 4.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession5 uniqueSessionName {} testbenchName FineSim_VCS_default resultsDir /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results testSuiteDir /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal databaseName /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[20:07:34.74] /o false
+[20:07:34.93] /i db::setAttr geometry -of [gi::getFrames 1] -value 1014x710+5+52
+[20:12:35.47] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[20:12:35.47] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[20:12:35.47] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[20:12:36.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:12:36.27] /i ::sa::_backgroundSaeShell::parentRunning
+[20:12:36.27] /o false
+[20:13:39.78] /i ::sa::_backgroundSaeShell::runScript /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession5 uniqueSessionName {} testbenchName FineSim_VCS_default resultsDir /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results testSuiteDir /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal databaseName /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[20:13:39.80] /o 
+[20:13:39.80] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[20:13:39.80] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[20:13:39.80] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[20:13:40.08] /w Warning: The environment option digitalOutputDataFormat is reset to FineSimProVCS default.
+[20:13:40.08] /w Warning: The environment option mergedFile is reset to FineSimProVCS default.
+[20:13:40.08] /w Warning: The environment option compilationOptions is reset to FineSimProVCS default.
+[20:13:40.08] /w Warning: The environment option vhdlanOptions is reset to FineSimProVCS default.
+[20:13:40.08] /w Warning: The environment option elaborationOptions is reset to FineSimProVCS default.
+[20:13:40.08] /w Warning: The environment option analogSimulatorOptions is reset to FineSimProVCS default.
+[20:13:40.08] /w Warning: The environment option numProcesses is reset to FineSimProVCS default.
+[20:13:40.08] /w Warning: The environment option outputDataFormat is reset to FineSimProVCS default.
+[20:13:40.08] /w Warning: The environment option commandLineOptions is reset to FineSimProVCS default.
+[20:13:40.08] /w Warning: The environment option switchViewList is reset to FineSimProVCS default.
+[20:13:40.08] /w Warning: The environment option stopViewList is reset to FineSimProVCS default.
+[20:13:40.14] /m Information: Loading preferences from /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/pw_shell_session_prefs.xml
+[20:13:40.48] /m Information: Start incremental database creation...
+[20:13:40.50] /m Information: Create Iter role param id map
+[20:13:40.51] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession5 uniqueSessionName {} testbenchName FineSim_VCS_default resultsDir /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results testSuiteDir /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal databaseName /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[20:13:40.51] /o false
+[20:13:40.51] /i ::wf::viewerExited
+[20:16:04.77] /i ::wf::viewerExited
+[20:16:05.65] /i ::wf::updateViewerLicense 2
+[20:18:42.56] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:18:42.67] /i ::sa::_backgroundSaeShell::parentRunning
+[20:18:42.67] /o false
+[20:18:44.47] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[20:18:44.47] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[20:18:44.47] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[20:23:43.76] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[20:23:43.76] /i ::sa::_backgroundSaeShell::parentRunning
+[20:23:43.76] /o false
+[20:26:35.22] /i ::sa::_backgroundSaeShell::exit
+[20:26:35.22] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[20:26:37.00] /o Shutdown time: Mon Apr 15 20:26:37 2024
+[20:26:37.00] /o Elapsed session real time: 29 minutes
+[20:26:37.01] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Fernandez_Rodriguez_I_2024_vlsi/Tarea_2_vlsi/synopsys_custom/logs/primewave.Fernandez_Rodriguez_I_2024_vlsi.2024_4_15_195734_487076.log

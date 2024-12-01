@@ -1,0 +1,14 @@
+run_in_same_process: start time = 1714425092
+WARNING: Physical layer METTPL  does not exist in process Line: mltrm METTPL (SX-1919)
+WARNING: Physical layer METTPL  does not exist in process Line: csptlm METTPL (SX-1919)
+WARNING: Physical layer METTPL  does not exist in process Line: rmtpl METTPL (SX-1919)
+WARNING: Physical layer METTPL  does not exist in process Line: ml_vlbl METTPL (SX-1919)
+WARNING: Physical layer VIATPL does not exist in process Line: viatpl VIATPL (SX-1936)
+ERROR: Cannot map the marker layer "METL_marker" to a valid GRD layer. (SX-3072)
+WARNING: Connectivity of VIA layer "metvitp" is incorrectly assigned. Check Technology (e.g. LEF) or
+         Mapping file. (SX-3657)
+  
+InitDB        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.2 
+Layers        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=664.9 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=664.9 

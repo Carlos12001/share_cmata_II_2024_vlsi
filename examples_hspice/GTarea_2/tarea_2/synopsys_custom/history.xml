@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Mon Apr 29 16:21:10 2024
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file library="tarea_2" file="schematic" cell="compleja_def" view="schematic" mode="write"/>
+                <file library="tarea_2" file="schematicSymbol" cell="compleja_def_not" view="symbol" mode="write"/>
+                <file library="tarea_2" file="schematic" cell="compleja_def_not" view="schematic" mode="read"/>
+                <file library="tarea_2" file="maskLayout" cell="compleja_def_not" view="layout" mode="write"/>
+                <file library="tarea_2" file="maskLayout" cell="compleja_def" view="layout" mode="write"/>
+        </recentFiles>
+</synopsysFile>

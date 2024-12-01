@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Wed Apr 17 22:47:07 2024
+-->
+<synopsysFile name="synopsysRecentFiles" version="1.1">
+        <recentFiles>
+                <file cell="NORS" mode="write" library="tarea_2" file="maskLayout" view="layout"/>
+                <file cell="NO2HDLLX0" mode="read" library="D_CELLS_HDLL" file="maskLayout" view="layout"/>
+                <file cell="NORS" mode="write" library="tarea_2" file="schematic" view="schematic"/>
+        </recentFiles>
+</synopsysFile>

@@ -1,0 +1,120 @@
+*Custom Compiler Version U-2023.03-SP2
+*Sun May 19 22:45:20 2024
+*  Generated for: FineSimProVCS
+*  Design library name: tarea_1_libreria
+*  Design cell name: inversor
+*  Design view name: schematic
+
+.option PARHIER = LOCAL
+.option PORT_VOLTAGE_SCALE_TO_2X=1
+.option s_elem_cache_dir = "/home/Cordero_Matamoros_I_2024_vlsi/.synopsys_custom/sparam_dir"
+.option pva_output_dir = "/home/Cordero_Matamoros_I_2024_vlsi/.synopsys_custom/pva_dir"
+.option ARTIST=2 PSF=2
+
+
+
+.temp 25
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea1/Hspice/lp5mos/xt018.lib' tm
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea1/Hspice/lp5mos/param.lib' 3s
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea1/Hspice/lp5mos/config.lib' default
+
+*PrimeWave Design Environment Version U-2023.03-SP2
+*Wed Mar  6 21:00:29 2024
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : GATES_HD
+* Cell             : invr
+* View             : schematic
+* View Search List : hspice hspiceD cmos.sch cmos_sch schematic veriloga
+* View Stop List   : hspice hspiceD veriloga
+********************************************************************************
+.subckt invr in out vt_ground_gnd_gnd! vt_power_vdd_vdd! GT_PDL=180.00n GT_PUL=180.00n
++  lc=2.7e-07 sx=4.8e-07
+xne out in vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w='GT_PDW' l='GT_PDL' as='sx*GT_PDW'
++ ad='sx*GT_PDW' ps='2*(sx+GT_PDW)' pd='2*(sx+GT_PDW)' nrs='lc/GT_PDW' nrd='lc/GT_PDW'
++ m='1*1' par1='1*1' xf_subext=0
+xpe out in vt_power_vdd_vdd! vt_power_vdd_vdd! pe w='GT_PUW' l='GT_PUL' as='sx*GT_PUW'
++ ad='sx*GT_PUW' ps='2*(sx+GT_PUW)' pd='2*(sx+GT_PUW)' nrs='lc/GT_PUW' nrd='lc/GT_PUW'
++ m='1*1' par1='1*1' xf_subext=0
+.ends invr
+
+********************************************************************************
+* Library          : D_CELLS_HDLL
+* Cell             : INHDLLX0
+* View             : cmos_sch
+* View Search List : hspice hspiceD cmos.sch cmos_sch schematic veriloga
+* View Stop List   : hspice hspiceD veriloga
+********************************************************************************
+.subckt inhdllx0 a q vt_ground_gnd_gnd! vt_power_vdd_vdd!
+xinvr_1 a q vt_ground_gnd_gnd! vt_power_vdd_vdd! invr GT_PDL=210.00n GT_PDW=420.00n
++  GT_PUL=210.000n GT_PUW=720.00n
+.ends inhdllx0
+
+********************************************************************************
+* Library          : flip_flop
+* Cell             : prueba1
+* View             : schematic
+* View Search List : hspice hspiceD cmos.sch cmos_sch schematic veriloga
+* View Stop List   : hspice hspiceD veriloga
+********************************************************************************
+.subckt prueba1 qn gnd! vdd!
+xi15 net29 net33 gnd! vdd! inhdllx0
+xi14 sqib net29 gnd! vdd! inhdllx0
+xi8 sqi qn gnd! vdd! inhdllx0
+xi5 ci cib gnd! vdd! inhdllx0
+xi1 net15 ci gnd! vdd! inhdllx0
+xm24 mqib ci net7 vdd! pe w=705.00n l=210.0n as=3.384e-13 ad=3.384e-13 ps=2.37e-06
++ pd=2.37e-06 nrs=0.382979 nrd=0.382979 m='1*1' par1='1*1' xf_subext=0
+xm56 mqi mqib vdd! vdd! pe w=720.0n l=210.0n as=3.456e-13 ad=3.456e-13 ps=2.4e-06
++ pd=2.4e-06 nrs=0.375 nrd=0.375 m='1*1' par1='1*1' xf_subext=0
+xm30 net3 mqi vdd! vdd! pe w=715.00n l=210.0n as=3.432e-13 ad=3.432e-13 ps=2.39e-06
++ pd=2.39e-06 nrs=0.377622 nrd=0.377622 m='1*1' par1='1*1' xf_subext=0
+xm23 net7 net16 vdd! vdd! pe w=705.00n l=210.0n as=3.384e-13 ad=3.384e-13 ps=2.37e-06
++ pd=2.37e-06 nrs=0.382979 nrd=0.382979 m='1*1' par1='1*1' xf_subext=0
+xm59 sqi sqib vdd! vdd! pe w=695.00n l=210.0n as=3.336e-13 ad=3.336e-13 ps=2.35e-06
++ pd=2.35e-06 nrs=0.388489 nrd=0.388489 m='1*1' par1='1*1' xf_subext=0
+xm36 net1 sqi vdd! vdd! pe w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm35 sqib ci net1 vdd! pe w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm34 mqib cib net5 vdd! pe w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm33 sqib cib net3 vdd! pe w=715.00n l=210.0n as=3.432e-13 ad=3.432e-13 ps=2.39e-06
++ pd=2.39e-06 nrs=0.377622 nrd=0.377622 m='1*1' par1='1*1' xf_subext=0
+xm28 net5 mqi vdd! vdd! pe w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm18 mqib cib net8 gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm17 mqi mqib gnd! gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm15 net8 net16 gnd! gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm46 sqib ci net4 gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm19 mqib ci net6 gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm51 sqib cib net2 gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm50 net2 sqi gnd! gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm49 sqi sqib gnd! gnd! ne w=480.0n l=210.0n as=2.304e-13 ad=2.304e-13 ps=1.92e-06
++ pd=1.92e-06 nrs=0.5625 nrd=0.5625 m='1*1' par1='1*1' xf_subext=0
+xm47 net4 mqi gnd! gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm61 net6 mqi gnd! gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
++ pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+v5 vdd! gnd! dc=1.8
+v2 net16 gnd! dc=0 pulse ( 0 1.8 0 1n 1n 148n 300n )
+v1 net15 gnd! dc=0 pulse ( 0 1.8 10n 1n 1n 48n 100n )
+.ends prueba1
+xmm qn gnd! vdd! prueba1
+
+
+
+
+.tran 1p 300n start=0
+.option opfile=1 split_dp=1
+.option probe=1
+.probe tran v(*) level=1
+.end

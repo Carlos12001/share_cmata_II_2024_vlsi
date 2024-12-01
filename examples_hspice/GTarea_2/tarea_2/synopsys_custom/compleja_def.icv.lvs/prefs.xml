@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version U-2023.03-SP2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtLVSCalibreUseSVRFTranscript" value="true"/>
+	<pref name="xtLVSICVControlVariablesTableConfig" value="1 275 0 100 0 100 1 840 1 100"/>
+	<pref name="xtLVSLayCell" value="compleja_def"/>
+	<pref name="xtLVSLayInputNetlist" value="/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/compleja_def.net"/>
+	<pref name="xtLVSLayLCV" value="tarea_2/compleja_def/layout"/>
+	<pref name="xtLVSLayOasisFile" value="/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/compleja_def.custom_compiler.oas"/>
+	<pref name="xtLVSLayStreamFile" value="/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/compleja_def.custom_compiler.gds"/>
+	<pref name="xtLVSSchCell" value="compleja_def"/>
+	<pref name="xtLVSSchInputNetlist" value="/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/compleja_def.icv.sp"/>
+	<pref name="xtLVSSchLCV" value="tarea_2/compleja_def/schematic"/>
+	<pref name="xtLVSSchOutputNetlist" value="/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/compleja_def.icv.sp"/>
+	<pref name="xtLVSTool" value="IC Validator"/>
+</preferences>
+

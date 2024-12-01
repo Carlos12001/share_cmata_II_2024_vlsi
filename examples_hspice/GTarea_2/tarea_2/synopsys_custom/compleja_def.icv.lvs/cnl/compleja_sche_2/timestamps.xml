@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Tue Apr 23 21:10:54 2024-->
+<file-format version="2.0" name="netlisting-timestamps">
+<module isSubcircuit="1" configTimeStamp="1909005017" viewStopList="abstract layout" timestamp="5452" contextID="switched: tarea_2 compleja_sche_2 schematic vl: abstract layout schematic sl: abstract layout config:tarea_2 compleja_def layout.config" viewSearchList="abstract layout schematic">
+<LineageParams/>
+<ParentParams/>
+<parameterizedConnections>
+<connectDefs timestamp="4090"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters/>
+<lib_parameters timestamp="1"/>
+<Terms timestamp="4885"/>
+<PortOrder><![CDATA[ABCDYvdd!]]></PortOrder>
+<ShortOptions timestamp="1009512283"/>
+</module>
+</file-format>

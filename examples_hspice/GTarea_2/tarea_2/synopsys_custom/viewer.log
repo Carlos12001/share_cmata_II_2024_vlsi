@@ -1,0 +1,13 @@
+ ** SX started using preference settings in '/tmp/tmp_sae_spxrc_qSNruz'
+sx_set_data_directory {/home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results}
+[16:19:36.470] I| Setup simulation complete: 
+    results directory: /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results 
+    post database directory: /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results
+[16:19:36.480] I| Open section (null) for /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results/resultsMap.xml, ref:/home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results/inter.fsdb
+[16:19:37.300] I| Setup simulation complete: 
+    results directory: /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results 
+    post database directory: /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results
+[16:19:37.310] I| wvpp_output_all start
+::wf::_scalarValueDB::scalarValue1644741420
+[16:19:37.350] I| wvpp_output_all end
+sx_exit

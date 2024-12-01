@@ -1,0 +1,86 @@
+[15:01:38.03] /o 
+              /c                                 Custom Compiler™ 
+              /c 
+              /c                Version U-2023.03-SP2 for linux64 - Aug 25, 2023 
+              /c 
+              /c                     Copyright (c) 2004 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9128410 compiled on Fri Aug 25 11:03:32 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/cdesigner -loadAll true
+              /c Execution time: Tue Apr 16 15:01:33 2024
+              /c Host: redhat003
+              /c Working directory: /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2
+              /c 
+[15:01:49.07] /m Information: Registering ICV PERC package...
+[15:01:49.50] /o 
+[15:01:49.50] /o <> -------------------------------------------
+[15:01:49.50] /o <>
+[15:01:49.50] /o <> Loading XFAB PDK components
+[15:01:49.51] /o <>  basic                            O.K
+[15:01:49.52] /o <>  exports                          O.K
+[15:01:49.77] /o <>  custom                           O.K
+[15:01:49.78] /o <>  cdf                              O.K
+[15:01:49.78] /o <>  netlisting                       O.K
+[15:01:49.81] /o <>  useability                       O.K
+[15:01:49.82] /o <>  synopsys                         O.K
+[15:01:49.84] /o <>  pcellkit                         O.K
+[15:01:49.88] /o <>  trigger_callbacks                O.K
+[15:01:49.88] /o <> Loading XFAB PDK preferences
+[15:01:49.91] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[15:01:49.93] /w Warning: Preference 'xtStarTcadGrdFile' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[15:01:49.93] /o <> Loading Calibre presets for XFAB PDK
+[15:01:49.94] /o <> Loading .xfabrc user script
+[15:01:49.94] /o <>
+[15:01:49.94] /o <> -------------------------------------------
+[15:01:49.94] /o <>
+[15:01:49.94] /o <> Technology     xt018
+[15:01:49.94] /o <> Version        v12_1_1_1
+[15:01:49.94] /o <> LibCode        1243
+[15:01:49.94] /o <> Core           LP 1.8V
+[15:01:49.94] /o <> Metal          Thin4
+[15:01:49.94] /o <> TopMetal       METTP&METTPL
+[15:01:49.94] /o <>
+[15:01:49.94] /o <> -------------------------------------------
+[15:01:49.94] /o 
+[15:01:50.59] /r giShowFrameTabs false
+[15:04:14.83] /i gi::executeAction {dmShowNewCellView} -in [gi::getWindows 0]
+[15:04:14.94] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[15:04:15.24] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x285+656+371
+[15:04:18.99] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getDialogs {dmNewCellView}]
+[15:04:19.01] /i gi::setItemSelection {views} -index {schematic} -in [gi::getDialogs {dmNewCellView}]
+[15:04:21.44] /i gi::setCurrentIndex {cells} -index {compleja} -in [gi::getDialogs {dmNewCellView}]
+[15:04:26.57] /i gi::setItemSelection {views} -index {} -in [gi::getDialogs {dmNewCellView}]
+[15:04:26.57] /i gi::setField {cellViewName} -value {layout} -in [gi::getDialogs {dmNewCellView}]
+[15:04:32.55] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewCellView}]
+[15:04:38.82] /# gi::executeAction {deRecentFile_tarea_2_compleja_schematic_schematic_Editing} -in [gi::getWindows 0]
+[15:04:38.82] /a de::open tarea_2/compleja/schematic -readOnly false
+[15:04:38.98] /m Information: Feature 'SynopsysCustomShapes' checked out. (LICENSE-003)
+[15:04:39.18] /r giWindowId 1
+[15:04:39.18] /r giWindowGeometry 1910x1020+5+55
+[15:04:39.18] /# db::setAttr maximized -of [gi::getFrames 1] -value true
+[15:04:39.40] /o oa:0x2e0482b0
+[15:04:39.66] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 1]] -value 290x891
+[15:12:42.39] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[15:12:42.46] /i gi::setActiveWindow 0
+[15:12:42.46] /i gi::setActiveWindow 0 -raise true
+[15:12:45.48] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[15:12:45.53] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[15:12:45.85] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]] -value 354x207+128+752
+[15:12:47.37] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 0]]
+[15:12:53.66] /o Shutdown time: Tue Apr 16 15:12:53 2024
+[15:12:53.66] /o Elapsed session real time: 11.26 minutes
+[15:12:53.66] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/logs/ccompiler.Cordero_Matamoros_I_2024_vlsi.2024_4_16_150133_3607841.log

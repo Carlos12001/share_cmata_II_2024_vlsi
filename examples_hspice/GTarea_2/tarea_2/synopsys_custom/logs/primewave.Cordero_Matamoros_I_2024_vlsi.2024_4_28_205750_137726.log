@@ -1,0 +1,171 @@
+[20:57:53.01] /o 
+              /c                    PrimeWave Design Environment
+              /c 
+              /c            Version U-2023.03-SP2 for linux64 - Aug 24, 2023 00:53:01 
+              /c 
+              /c                     Copyright (c) 2000 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9117514 compiled on Wed Aug 23 10:56:58 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/bin/primewave_st -gui 0 -log pw_shell_session0_job1 -libDefFile /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/lib.defs
+              /c Execution time: Sun Apr 28 20:57:50 2024
+              /c Host: redhat003
+              /c 
+[20:57:53.04] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[20:57:53.04] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[20:57:53.04] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[20:57:55.81] /r giShowFrameTabs true
+[20:57:55.81] /r giWindowId 1
+[20:57:55.81] /r giWindowGeometry 1040x800
+[20:57:55.90] /i ::sa::_backgroundSaeShell::signalProcessReady 1714359468 87317
+[20:57:55.91] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 7
+[20:57:55.92] /i ::wf::updateViewerLicense 2
+[20:57:55.93] /i ::wf::updateViewerLicense 2
+[20:59:34.78] /i ::sa::_backgroundSaeShell::runScript /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/bg_script.tcl 0 sa::_testSuite::netlistAndRun::structNetlistingDone scriptDir /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic testSuiteName saeSession0 cmdArgs {default 1 1 0 1 1} taskId 0
+[20:59:35.31] /w Warning: The environment option digitalOutputDataFormat is reset to FineSimProVCS default.
+[20:59:35.31] /w Warning: The environment option mergedFile is reset to FineSimProVCS default.
+[20:59:35.31] /w Warning: The environment option compilationOptions is reset to FineSimProVCS default.
+[20:59:35.31] /w Warning: The environment option vhdlanOptions is reset to FineSimProVCS default.
+[20:59:35.31] /w Warning: The environment option elaborationOptions is reset to FineSimProVCS default.
+[20:59:35.31] /w Warning: The environment option analogSimulatorOptions is reset to FineSimProVCS default.
+[20:59:35.31] /w Warning: The environment option numProcesses is reset to FineSimProVCS default.
+[20:59:35.31] /w Warning: The environment option outputDataFormat is reset to FineSimProVCS default.
+[20:59:35.31] /w Warning: The environment option commandLineOptions is reset to FineSimProVCS default.
+[20:59:35.31] /w Warning: The environment option switchViewList is reset to FineSimProVCS default.
+[20:59:35.31] /w Warning: The environment option stopViewList is reset to FineSimProVCS default.
+[20:59:35.54] /o 
+[20:59:35.54] /o <> -------------------------------------------
+[20:59:35.54] /o <>
+[20:59:35.54] /o <> Loading XFAB PDK components
+[20:59:35.54] /o <>  basic                            O.K
+[20:59:35.56] /o <>  exports                          O.K
+[20:59:35.57] /o <>  custom                           O.K
+[20:59:35.58] /o <>  cdf                              O.K
+[20:59:35.58] /o <>  netlisting                       O.K
+[20:59:35.59] /o <>  useability                       WRN
+[20:59:35.61] /e Error: "Following error happened during execution of ::gi::_giConsoleMessenger::_addToWindowType procedure during TCL callback Error: There are no registered attributes for object type 'string'. (TCL_OBJECT-008)" (POSTMAN-005)
+[20:59:35.62] /o <>  synopsys                         O.K
+[20:59:35.66] /o <>  pcellkit                         O.K
+[20:59:35.67] /o <>  trigger_callbacks                O.K
+[20:59:35.67] /o <> Loading XFAB PDK preferences
+[20:59:35.68] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtLVSSchNetlister because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference lxSplit because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference lxMFactorNames because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference lxTopBottomPinLPP because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference lxLeftRightPinLPP because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[20:59:35.68] /w Warning: Could not set the value of preference xtPVLayerMapFile because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtLPEStarRunsetFile because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtCDLViewSearchList because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtCDLViewStopList because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtDRCICVControlVars because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtLVSICVControlVars because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /o <> Loading Calibre presets for XFAB PDK
+[20:59:35.68] /w Warning: Could not set the value of preference xtCalibreNetlistExportNetlisterEnabled because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtCalibreNetlistExportNetlister because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtCalibreNetlistExportViewList because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /w Warning: Could not set the value of preference xtCalibreNetlistExportStopList because it does not exist. (PREFERENCE-016)
+[20:59:35.68] /o <> Loading .xfabrc user script
+[20:59:35.68] /o <>
+[20:59:35.68] /o <> -------------------------------------------
+[20:59:35.68] /o <>
+[20:59:35.68] /o <> Technology     xt018
+[20:59:35.68] /o <> Version        v12_1_1_1
+[20:59:35.68] /o <> LibCode        1243
+[20:59:35.68] /o <> Core           LP 1.8V
+[20:59:35.68] /o <> Metal          Thin4
+[20:59:35.68] /o <> TopMetal       METTP&METTPL
+[20:59:35.69] /o <>
+[20:59:35.69] /o <> -------------------------------------------
+[20:59:35.69] /o 
+[20:59:35.69] /m Information: WARNLOAD  /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/PDK/CustomCompiler/v12_1_1_1/scripts/useability/xt018_mimant_check.tcl
+[20:59:36.05] /w Warning: Preference 'dbParamTrimTrailingZeroesAfterDecimalPoint' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[20:59:36.12] /w Warning: Error: Initializing startup file ':/auxx/layout_editor/startup.tcl' failed:
+              /c Error: Initializing startup file ':/auxx/constraints/startup.tcl' failed:
+              /c Error: Initializing startup file ':/auxx/constraints/bindings.tcl' failed:
+              /c Error: Could not execute command 'gi::createBinding' because the supplied object 'cmDelete' for argument '-action' is invalid: Action with specified name does not exist. (COMMAND-026) (STARTUP-002) (STARTUP-002) (STARTUP-002)
+[20:59:36.14] /w Warning: Preference 'nlNanoSimShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlNanoSimIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[20:59:36.14] /w Warning: Preference 'nlCDLPromoteConnectDefsAtTop' is deprecated and scheduled for removal in a future release. Use 'nlCDLTopVirtualTerms' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[20:59:36.14] /w Warning: Preference 'nlVerilogShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[20:59:36.14] /w Warning: Preference 'nlCDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlCDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[20:59:36.14] /w Warning: Preference 'nlEldoShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlEldoIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[20:59:36.14] /w Warning: Preference 'nlSpectreAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[20:59:36.14] /w Warning: Preference 'nlVHDLShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVHDLIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[20:59:36.14] /w Warning: Preference 'nlVerilogICCShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlVerilogICCIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[20:59:36.14] /w Warning: Preference 'nlPromoteTerms' is deprecated and scheduled for removal in a future release with no replacement. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-058)
+[20:59:36.14] /w Warning: Preference 'nlAMSShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlAMSIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[20:59:36.14] /w Warning: Preference 'nlSpectreShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlSpectreIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[20:59:36.14] /w Warning: Preference 'nlHSPICEShortPropNames' is deprecated and scheduled for removal in a future release. Use 'nlHSPICEIgnorePropNames' instead. For migration assistance, see the Custom Compiler Tcl Reference Manual. (PREFERENCE-070)
+[20:59:36.17] /o saeInterBGSaeShell:  ::sa::netlistAndRun::updateBgNRunMsg /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results "Creating structural netlist for testbench default ..." 0 1
+[20:59:36.20] /m Information: "Starting incremental netlisting for design "tarea_2/compleja_def/schematic"..." (NETLISTING-010)
+[20:59:36.22] /o Netlisting
+[20:59:36.62] /o No Design Integrity rule violations found in "tarea_2/compleja_def/schematic"
+[20:59:36.62] /o Scanning: tarea_2/compleja_def/schematic
+[20:59:36.69] /o Scanning: D_CELLS_HDLL/INHDLLX0/functional
+[20:59:36.79] /o Computing terminal lists
+[20:59:36.79] /o Processing terminals of module tarea_2/compleja_def/schematic
+[20:59:36.80] /o Creating output directories
+[20:59:36.84] /o Netlisting
+[20:59:36.84] /o Formatting tarea_2/compleja_def/schematic
+[20:59:36.90] /m Information: "tarea_2 compleja_def schematic" renetlisted. (NETLISTING-056)
+[20:59:36.90] /m Information: "Netlisting design "tarea_2/compleja_def/schematic" finished successfully." (NETLISTING-012)
+[20:59:36.91] /m Information: Composing simulator input file for design "tarea_2/compleja_def/schematic"...
+[20:59:38.99] /o 
+[20:59:38.99] /o Analyzing Hierarchy
+[20:59:39.00] /o Finalizing
+[20:59:39.00] /m Information: Simulator input file composed successfully for design "tarea_2/compleja_def/schematic"
+[20:59:39.00] /o saeInterBGSaeShell:  ::sa::netlistAndRun::updateBgNRunMsg /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results "Creating final netlist for testbench default ..." 0 0
+[20:59:39.12] /o 
+[20:59:40.05] /o saeInterBGSaeShell:  ::sa::netlistAndRun::updateBgNRunMsg /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results "Composing simulation job for testbench default - Nominal " 1 1
+[20:59:40.15] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 5.3 {} sa::_testSuite::netlistAndRun::structNetlistingDone scriptDir /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic testSuiteName saeSession0 cmdArgs {default 1 1 0 1 1} taskId 0
+[20:59:40.15] /o false
+[20:59:40.17] /i db::setAttr geometry -of [gi::getFrames 1] -value 1014x710+5+52
+[21:00:09.21] /i ::sa::_backgroundSaeShell::runScript /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 uniqueSessionName {} testbenchName default resultsDir /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results testSuiteDir /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal databaseName /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[21:00:09.22] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[21:00:09.22] /o 
+[21:00:09.22] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[21:00:09.26] /w Warning: The environment option digitalOutputDataFormat is reset to FineSimProVCS default.
+[21:00:09.26] /w Warning: The environment option mergedFile is reset to FineSimProVCS default.
+[21:00:09.26] /w Warning: The environment option compilationOptions is reset to FineSimProVCS default.
+[21:00:09.26] /w Warning: The environment option vhdlanOptions is reset to FineSimProVCS default.
+[21:00:09.26] /w Warning: The environment option elaborationOptions is reset to FineSimProVCS default.
+[21:00:09.26] /w Warning: The environment option analogSimulatorOptions is reset to FineSimProVCS default.
+[21:00:09.26] /w Warning: The environment option numProcesses is reset to FineSimProVCS default.
+[21:00:09.26] /w Warning: The environment option outputDataFormat is reset to FineSimProVCS default.
+[21:00:09.26] /w Warning: The environment option commandLineOptions is reset to FineSimProVCS default.
+[21:00:09.26] /w Warning: The environment option switchViewList is reset to FineSimProVCS default.
+[21:00:09.26] /w Warning: The environment option stopViewList is reset to FineSimProVCS default.
+[21:00:09.29] /m Information: Loading preferences from /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/pw_shell_session_prefs.xml
+[21:00:09.48] /e Error: "Enabling/disabling freezing is not allowed if there are open superMasters" (PCELL_FREEZING-005)
+[21:00:09.48] /w Warning: Preference cannot be modified (Value 'false' for preference 'dbPcellFreezeEnabled' is invalid.). (PREFERENCE-035)
+[21:00:09.55] /m Information: Start incremental database creation...
+[21:00:09.56] /m Information: Create Iter role param id map
+[21:00:09.58] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 uniqueSessionName {} testbenchName default resultsDir /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results testSuiteDir /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal databaseName /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[21:00:09.58] /o false
+[21:00:09.58] /i ::wf::viewerExited
+[21:00:59.36] /i ::sa::_backgroundSaeShell::exit
+[21:00:59.36] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[21:01:01.24] /o Shutdown time: Sun Apr 28 21:01:01 2024
+[21:01:01.24] /o Elapsed session real time: 3.13 minutes
+[21:01:01.24] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/logs/primewave.Cordero_Matamoros_I_2024_vlsi.2024_4_28_205750_137726.log

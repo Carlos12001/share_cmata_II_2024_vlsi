@@ -1,0 +1,23 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "U-2023.03-SP2 linux64"
+* "format" "HSP"
+* "rundate" "21:03:05 04/15/2024 "
+* "netlist" "h_spice_compleja "
+* "runtitle" "*  generated for: finesimprovcs"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ b =   0.            
++ c =   0.            
++ d =   0.            
++ net47 =  22.4697m       
++ net63 =   1.8000        
++ net67 =   1.8000        
++ net73 = 725.0686p       
++ net81 =   1.8000        
++ y =   1.8000        
+***   END: Saved Operating Point ***                     

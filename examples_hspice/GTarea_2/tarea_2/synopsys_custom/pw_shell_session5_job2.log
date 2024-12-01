@@ -1,0 +1,69 @@
+[21:50:25.28] /o 
+              /c                    PrimeWave Design Environment
+              /c 
+              /c            Version U-2023.03-SP2 for linux64 - Aug 24, 2023 00:53:01 
+              /c 
+              /c                     Copyright (c) 2000 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9117514 compiled on Wed Aug 23 10:56:58 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/primewave/U-2023.03-SP2/linux64/platform/bin/primewave_st -gui 0 -log pw_shell_session5_job2 -libDefFile /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/lib.defs
+              /c Execution time: Sun Apr 28 21:50:22 2024
+              /c Host: redhat003
+              /c 
+[21:50:25.30] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[21:50:25.30] /m Information: Started sharing "Primewave" license. (WAVEFORM-110)
+[21:50:25.30] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[21:50:28.03] /r giShowFrameTabs true
+[21:50:28.03] /r giWindowId 1
+[21:50:28.03] /r giWindowGeometry 1040x800
+[21:50:28.11] /i ::sa::_backgroundSaeShell::signalProcessReady 1714362621 87317
+[21:50:28.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 7
+[21:50:58.31] /i ::wf::viewerExited
+[21:51:46.23] /i ::wf::viewerExited
+[21:53:28.59] /i ::wf::viewerExited
+[21:55:29.33] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[21:55:29.52] /i ::sa::_backgroundSaeShell::parentRunning
+[21:55:29.52] /o false
+[21:55:30.42] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[21:55:30.42] /m Information: Stopped sharing "Primewave" license. (WAVEFORM-111)
+[21:55:30.42] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[21:58:09.72] /i ::wf::viewerExited
+[21:58:10.90] /i ::wf::updateViewerLicense 2
+[21:58:54.37] /i ::wf::viewerExited
+[22:00:30.53] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:00:30.72] /i ::sa::_backgroundSaeShell::parentRunning
+[22:00:30.72] /o false
+[22:05:31.73] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:05:31.92] /i ::sa::_backgroundSaeShell::parentRunning
+[22:05:31.92] /o false
+[22:10:32.92] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:10:33.02] /i ::sa::_backgroundSaeShell::parentRunning
+[22:10:33.02] /o false
+[22:15:34.11] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:15:34.22] /i ::sa::_backgroundSaeShell::parentRunning
+[22:15:34.22] /o false
+[22:20:35.30] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:20:35.32] /i ::sa::_backgroundSaeShell::parentRunning
+[22:20:35.32] /o false
+[22:25:36.51] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[22:25:36.62] /i ::sa::_backgroundSaeShell::parentRunning
+[22:25:36.62] /o false
+[22:30:16.35] /i ::sa::_backgroundSaeShell::exit
+[22:30:16.35] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[22:30:17.75] /o Shutdown time: Sun Apr 28 22:30:17 2024
+[22:30:17.75] /o Elapsed session real time: 39.88 minutes
+[22:30:17.75] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/logs/primewave.Cordero_Matamoros_I_2024_vlsi.2024_4_28_215022_242845.log

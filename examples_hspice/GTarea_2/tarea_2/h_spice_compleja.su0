@@ -1,0 +1,20 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "U-2023.03-SP2 linux64"
+"rundate" "21:03:07 04/15/2024"
+"runtitle" "*  generated for: finesimprovcs                                                                                         "
+"runtype" "Summary Information"
+"temperature" "25.0000"
+"op point time" "0.01"
+"op point iterations" "13"
+"transient time" "0.03"
+"transient iterations" "2063"
+"total cpu time" "1.94"
+"node value" "invalid"
+"operating point" "invalid"
+"ac analysis" "invalid"
+"dc sweep" "invalid"
+"transient analysis" "complete"
+TRAILER
+END

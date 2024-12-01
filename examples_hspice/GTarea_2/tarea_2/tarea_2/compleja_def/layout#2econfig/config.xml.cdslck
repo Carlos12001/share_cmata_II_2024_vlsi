@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      Cordero_Matamoros_I_2024_vlsi
+HostName                       redhat003
+ProcessIdentifier              402963
+ProcessCreationTime_UTC        1713557742
+ProcessCreationTime_Readable   Fri 19 Apr 2024 02:15:42 PM CST CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/tarea_2/compleja_def/layout#2econfig/config.xml.cdslck
+TimeEditLocked                 Fri 19 Apr 2024 03:30:10 PM CST CST

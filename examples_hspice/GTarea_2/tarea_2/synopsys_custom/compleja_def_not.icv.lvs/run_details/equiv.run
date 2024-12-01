@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"compleja_def_not", "compleja_def_not"}});
+
+/* Generated system equivalence points are listed in this section */

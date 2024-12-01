@@ -1,0 +1,39 @@
+[14:22:06.48] /o 
+              /c                                 Custom Compiler™ 
+              /c 
+              /c                Version U-2023.03-SP2 for linux64 - Aug 25, 2023 
+              /c 
+              /c                     Copyright (c) 2004 - 2023 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 9128410 compiled on Fri Aug 25 11:03:32 2023 for CentOS64 7.3
+              /c Invocation: /mnt/vol_synopsys2023/synopsys/customcompiler/U-2023.03-SP2/linux64/platform/bin/cdesigner -loadAll true
+              /c Execution time: Mon Apr 15 14:22:03 2024
+              /c Host: redhat003
+              /c Working directory: /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2
+              /c 
+[14:22:12.50] /m Information: Registering ICV PERC package...
+[14:22:12.57] /w Warning: In file /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/lib.defs: In file '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/lib.defs': Error at line '10' : LibDefFile cannot read INCLUDE file: '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/XFABlib.defs' (DATA_MANAGEMENT-014)
+[14:22:12.98] /r giShowFrameTabs true
+[14:22:12.98] /r giWindowId 1
+[14:22:12.98] /r giWindowGeometry 1040x800
+[14:23:01.60] /i exit
+[14:23:01.69] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[14:23:01.97] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]] -value 414x181+752+457
+[14:23:03.43] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[14:23:08.25] /o Shutdown time: Mon Apr 15 14:23:08 2024
+[14:23:08.25] /o Elapsed session real time: 1.03 minutes
+[14:23:08.25] /o Session terminated. Log is at /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/logs/ccompiler.Cordero_Matamoros_I_2024_vlsi.2024_4_15_142203_74697.log

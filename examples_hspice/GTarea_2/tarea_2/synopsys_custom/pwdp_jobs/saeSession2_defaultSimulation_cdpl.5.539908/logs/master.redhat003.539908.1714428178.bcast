@@ -1,0 +1,7 @@
+# Master Broadcast File
+time 1714428178
+pid 539908
+log /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/pwdp_jobs/saeSession2_defaultSimulation_cdpl.5.539908/logs/master.redhat003.539908.log.gz
+tcp 172.21.8.7:35651
+wlog /dev/null
+status done

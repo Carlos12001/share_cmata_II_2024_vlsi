@@ -1,0 +1,160 @@
+
+                                 IC Validator 
+
+          Version U-2022.12-SP4 for linux64 - Aug 28, 2023 cl#9133772
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Time Started: 2024-04-29 15:01:01
+Running on: redhat003 4.18.0-513.24.1.el8_9.x86_64
+
+-------------
+
+Called as: icv -f openaccess -i tarea_2 -c compleja_def -oa_view layout -oa_lib_defs /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/lib.defs -oa_layer_map /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/strmInOut.layertable -I /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/./ICValidator -I /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/./StarRC -s /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/compleja_def.icv.sp -sf SPICE -stc compleja_def -oa_dm6 -I /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1 -vue /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs
+
+-------------
+
+Command Line Summary:
+icv
+-c compleja_def
+-f openaccess
+-i tarea_2
+-oa_dm6
+-oa_layer_map /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/strmInOut.layertable
+-oa_lib_defs /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/lib.defs
+-oa_view layout
+-s /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/compleja_def.icv.sp
+-sf SPICE
+-stc compleja_def
+-vue
+-I /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/./ICValidator
+-I /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/./StarRC
+-I /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1
+/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs
+
+-------------
+
+
+WARNING: The environment variable ICV_RSH_COMMAND is deprecated. Please use -host_login.
+Using "ssh" as remote login program
+
+Parsing runset "/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs"
+
+/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tutorial/synopsys_custom/nand2x1.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs:1: warning: "VAR_ANT_RATIO" wasn't defined
+    #undef VAR_ANT_RATIO
+/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tutorial/synopsys_custom/nand2x1.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs:19: warning: "FloatingGate" wasn't defined
+    #undef FloatingGate
+/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tutorial/synopsys_custom/nand2x1.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs:20: warning: "FloatingWell" wasn't defined
+    #undef FloatingWell
+/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tutorial/synopsys_custom/nand2x1.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs:21: warning: "ParaDioAsDevDio" wasn't defined
+    #undef ParaDioAsDevDio
+/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tutorial/synopsys_custom/nand2x1.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs:22: warning: "DTINBOXCAP" wasn't defined
+    #undef DTINBOXCAP
+xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs:17: warning: "METAL5" wasn't defined
+    #undef METAL5
+    from /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tutorial/synopsys_custom/nand2x1.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs: 30:    #include <xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs>
+xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs:18: warning: "METAL6" wasn't defined
+    #undef METAL6
+    from /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tutorial/synopsys_custom/nand2x1.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs: 30:    #include <xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs>
+xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs:21: warning: "METCOP" wasn't defined
+    #undef METCOP
+    from /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tutorial/synopsys_custom/nand2x1.icv.lvs/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.rs: 30:    #include <xt018_1243_LVS_LP5MOS_MET4_METMID_METTHK.rs>
+
+/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018.rs:36255: warning: ICV LVS device settings currently use append mode. Use command line option '-D ICV_REVERT_DEVICE_SETTING_APPEND_MODE' or runset instruction '#define ICV_REVERT_DEVICE_SETTING_APPEND_MODE' to revert LVS device setting back to overwrite mode in this release.
+Loaded runset from cache: /home/Cordero_Matamoros_I_2024_vlsi/.icvrscache/b778f3fbaccd418dab2a2c3d597a2d9a-076E67D0-2E14-489B-8318-370FDA41AE2B-redhat003-4149821.rscache
+Cached Runset Compile Time=0:00:04 User=3.40 Sys=0.10 Mem=0.600 GB
+
+Virtual Machine Init Time=0:00:00 User=0.05 Sys=0.02 Mem=0.600 GB
+
+/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_icv_option.rs:66: warning: The error_limit_per_check in error_options is set to unlimited.  The user setting of unlimited will be honored but could result in very large error files and increased amount of time to process if the number of errors in a check is very large.
+
+Host startup begins.
+Host startup done: 2 successes, 0 failures.
+	redhat003: 2 total cores, maximum 2 commands in parallel.
+Selecting "redhat003" as Primary host
+
+System Startup Time=0:00:01 User=0.00 Sys=0.02 Mem=0.600 GB
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/run_details/compleja_def.sum
+    /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/compleja_def.icv.lvs/run_details/xt018_1243_StarRCXT_LP5MOS_MET4_METMID_METTHK.lvs.dp.log
+
+Running ...
+  [0:00:01][0%]   Total: 2 CPUs on 1 host
+  [0:00:03][1%]   Rules: 22/26, Rules with Violations: 0, Total Violations: 0
+  [0:00:03][2%]   
+  [0:00:03][3%]   
+  [0:00:04][4%]   
+  [0:00:04][5%]   
+  [0:00:04][10%]  
+  [0:00:04][15%]  
+  [0:00:04][20%]  
+  [0:00:04][25%]  
+  [0:00:04][30%]  
+  [0:00:04][35%]  
+  [0:00:04][40%]  
+  [0:00:04][45%]  
+  [0:00:04][50%]  
+  [0:00:05][55%]  Rules: 24/27, Rules with Violations: 0, Total Violations: 0
+  [0:00:06][60%]  Rules: 26/27, Rules with Violations: 0, Total Violations: 0
+  [0:00:06][65%]  
+  [0:00:06][70%]  
+  [0:00:07][75%]  
+  [0:00:07][80%]  
+  [0:00:07][85%]  
+  [0:00:07][90%]  
+  [0:00:08][95%]  
+Comparing schematic and layout netlists.
+LVS compare start time    : 2024-04-29 15:01:15
+  ICV_Compare [0:00:01][0%]
+  ICV_Compare [0:00:01][5%]
+  ICV_Compare [0:00:01][10%]
+  ICV_Compare [0:00:01][15%]
+  ICV_Compare [0:00:01][20%]
+  ICV_Compare [0:00:01][25%]
+  ICV_Compare [0:00:01][30%]
+  ICV_Compare [0:00:01][100%]
+LVS compare end time      : 2024-04-29 15:01:16
+Total runtime for LVS compare Time=0:00:01  User=0.01 Sys=0.04 Mem=0.016 GB
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=0.036 GB
+
+  [0:00:12][100%] Rules: 27/27, Rules with Violations: 0, Total Violations: 0
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating compleja_def.TOP_LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+
+IC Validator Run: Time=0:00:17
+
+-------------
+
+IC Validator Machine Memory Report
+redhat003    : Average = 1.336 GB, Peak = 1.336 GB
+
+Overall Disk Usage Disk=0.007 GB
+Network Disk Usage Peak=0.022 GB (no group)
+Group File Disk Usage Peak=0.001 GB
+Overall engine Time=0:00:17 Highest command Mem=0.132 GB
+
+Overall Master Mem=1.372 GB
+
+Time Ended: 2024-04-29 15:01:18
+
+IC Validator is done.
