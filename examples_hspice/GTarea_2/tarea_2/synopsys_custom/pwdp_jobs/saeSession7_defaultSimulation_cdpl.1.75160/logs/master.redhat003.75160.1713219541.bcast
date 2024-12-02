@@ -1,7 +1,0 @@
-# Master Broadcast File
-time 1713219541
-pid 75160
-log /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/synopsys_custom/pwdp_jobs/saeSession7_defaultSimulation_cdpl.1.75160/logs/master.redhat003.75160.log.gz
-tcp 172.21.8.7:33515
-wlog /dev/null
-status done

@@ -1,9 +1,0 @@
-[16:19:08.030] I| Created new database /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results/post_results.db
-[16:19:08.240] I| Setup simulation complete: 
-    results directory: /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results 
-    post database directory: /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results
-[16:19:36.480] I| Created new database /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results/rv_status.db
-[16:19:36.490] I| Setup simulation complete: 
-    results directory: /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results 
-    post database directory: /home/Cordero_Matamoros_I_2024_vlsi/simulation/tarea_2,compleja_def,schematic/history_1/simulation/default/FineSimProVCS/nominal/results
-sx_exit

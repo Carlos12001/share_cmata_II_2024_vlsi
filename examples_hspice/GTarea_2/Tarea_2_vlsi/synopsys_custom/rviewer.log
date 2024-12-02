@@ -1,8 +1,0 @@
-[20:41:51.410] I| Setup simulation complete: 
-    results directory: /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results 
-    post database directory: /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results
-[20:42:30.780] I| Created new database /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results/rv_status.db
-[20:42:30.790] I| Setup simulation complete: 
-    results directory: /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results 
-    post database directory: /home/Fernandez_Rodriguez_I_2024_vlsi/simulation/tarea_2,NORS,schematic/history_1/simulation/FineSim_VCS_default/FineSimProVCS/nominal/results
-sx_exit

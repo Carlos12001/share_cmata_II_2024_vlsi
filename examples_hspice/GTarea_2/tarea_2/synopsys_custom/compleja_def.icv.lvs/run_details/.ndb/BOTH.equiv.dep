@@ -1,5 +1,0 @@
-PE::PE { }
-NE::NE { }
-P_DN::P_DN { }
-P_DNW::P_DNW { }
-compleja_def::compleja_def { P_DNW::P_DNW NE::NE PE::PE P_DN::P_DN }

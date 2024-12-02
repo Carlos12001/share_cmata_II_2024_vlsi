@@ -1,7 +1,0 @@
-# Master Broadcast File
-time 1713232058
-pid 86578
-log /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Fernandez_Rodriguez_I_2024_vlsi/Tarea_2_vlsi/synopsys_custom/pwdp_jobs/saeSession4_FineSimVCSdefaultSimulation_cdpl.3.86578/logs/master.redhat003.86578.log.gz
-tcp 172.21.8.7:35841
-wlog /dev/null
-wlog /dev/null
