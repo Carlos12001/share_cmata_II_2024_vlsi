@@ -58,19 +58,26 @@ xinvr_1 a q vt_ground_gnd_gnd! vt_power_vdd_vdd! invr GT_PDL=210.00n GT_PDW=420.
 * View Search List : hspice hspiceD cmos.sch cmos_sch schematic veriloga
 * View Stop List   : hspice hspiceD veriloga
 ********************************************************************************
-.subckt prueba1 qn gnd! vdd!
-xi15 net29 net33 gnd! vdd! inhdllx0
+.subckt prueba1 clk d q qn gnd! vdd!
+xi28 net47 net56 gnd! vdd! inhdllx0
+xi27 net56 d gnd! vdd! inhdllx0
+xi22 net48 net45 gnd! vdd! inhdllx0
+xi21 net45 clk gnd! vdd! inhdllx0
+xi18 net34 net39 gnd! vdd! inhdllx0
+xi17 net39 qn gnd! vdd! inhdllx0
+xi16 net36 q gnd! vdd! inhdllx0
+xi15 net29 net36 gnd! vdd! inhdllx0
 xi14 sqib net29 gnd! vdd! inhdllx0
-xi8 sqi qn gnd! vdd! inhdllx0
+xi8 sqi net34 gnd! vdd! inhdllx0
 xi5 ci cib gnd! vdd! inhdllx0
-xi1 net15 ci gnd! vdd! inhdllx0
+xi1 clk ci gnd! vdd! inhdllx0
 xm24 mqib ci net7 vdd! pe w=705.00n l=210.0n as=3.384e-13 ad=3.384e-13 ps=2.37e-06
 + pd=2.37e-06 nrs=0.382979 nrd=0.382979 m='1*1' par1='1*1' xf_subext=0
 xm56 mqi mqib vdd! vdd! pe w=720.0n l=210.0n as=3.456e-13 ad=3.456e-13 ps=2.4e-06
 + pd=2.4e-06 nrs=0.375 nrd=0.375 m='1*1' par1='1*1' xf_subext=0
 xm30 net3 mqi vdd! vdd! pe w=715.00n l=210.0n as=3.432e-13 ad=3.432e-13 ps=2.39e-06
 + pd=2.39e-06 nrs=0.377622 nrd=0.377622 m='1*1' par1='1*1' xf_subext=0
-xm23 net7 net16 vdd! vdd! pe w=705.00n l=210.0n as=3.384e-13 ad=3.384e-13 ps=2.37e-06
+xm23 net7 d vdd! vdd! pe w=705.00n l=210.0n as=3.384e-13 ad=3.384e-13 ps=2.37e-06
 + pd=2.37e-06 nrs=0.382979 nrd=0.382979 m='1*1' par1='1*1' xf_subext=0
 xm59 sqi sqib vdd! vdd! pe w=695.00n l=210.0n as=3.336e-13 ad=3.336e-13 ps=2.35e-06
 + pd=2.35e-06 nrs=0.388489 nrd=0.388489 m='1*1' par1='1*1' xf_subext=0
@@ -88,7 +95,7 @@ xm18 mqib cib net8 gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-0
 + pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
 xm17 mqi mqib gnd! gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
 + pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
-xm15 net8 net16 gnd! gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
+xm15 net8 d gnd! gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
 + pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
 xm46 sqib ci net4 gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
 + pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
@@ -105,10 +112,10 @@ xm47 net4 mqi gnd! gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-0
 xm61 net6 mqi gnd! gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13 ps=1.8e-06
 + pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
 v5 vdd! gnd! dc=1.8
-v2 net16 gnd! dc=0 pulse ( 0 1.8 0 1n 1n 148n 300n )
-v1 net15 gnd! dc=0 pulse ( 0 1.8 10n 1n 1n 48n 100n )
+v2 net47 gnd! dc=0 pulse ( 0 1.8 0 1n 1n 148n 300n )
+v1 net48 gnd! dc=0 pulse ( 0 1.8 10n 1n 1n 48n 100n )
 .ends prueba1
-xmm qn gnd! vdd! prueba1
+xmm clk d q qn gnd! vdd! prueba1
 
 
 

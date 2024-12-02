@@ -8,9 +8,7 @@
 .option ARTIST=2 PSF=2
 
 .temp 25
-.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/Hspice/lp5mos/xt018.lib' tm
-.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/Hspice/lp5mos/param.lib' 3s
-.lib '/mnt/vol_NFS_rh003/Est_VLSI_I_2024/Cordero_Matamoros_I_2024_vlsi/tarea_2/Hspice/lp5mos/config.lib' default
+
 .param p_1=1800n
 .param n_1=900n
 .param p_2=5220n
@@ -65,8 +63,7 @@ v25 a gnd dc=1.8 pulse ( 0 1.8 0 0.5n 0.5n 6n 12n )
 
 .option PARHIER = LOCAL
 **.option finesim_mode = spicead
-.option s_elem_cache_dir = "/home/Cordero_Matamoros_I_2024_vlsi/.synopsys_custom/sparam_dir"
-.option pva_output_dir = "/home/Cordero_Matamoros_I_2024_vlsi/.synopsys_custom/pva_dir"
+
 .option probe=1 
 .probe tran v(*) level=1
 *.mesure tdf
